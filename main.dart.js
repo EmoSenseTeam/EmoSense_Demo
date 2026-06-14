@@ -33100,7 +33100,7 @@ p=4
 A.dJ().$1("Attempting register to: https://1lpjs2b5-4000.euw.devtunnels.ms/api/auth/register")
 k=A.dI("https://1lpjs2b5-4000.euw.devtunnels.ms/api/auth/register",0,null)
 j=t.N
-i=A.r(["Content-Type","application/json","Accept","application/json"],j,j)
+i=A.r(["Content-Type","application/json","Accept","application/json","X-Tunnel-Skip-AntiSpam-Page","true"],j,j)
 s=7
 return A.u(A.vU(k,B.aI.kO(A.r(["firstName",c,"lastName",a0,"email",a,"password",a1,"university",a2,"faculty",b,"birthDate",g,"phone",e,"course",f],j,j),null),i).hj(0,B.cv),$async$aan)
 case 7:n=a4
